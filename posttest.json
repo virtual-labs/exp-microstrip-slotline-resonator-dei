@@ -1,0 +1,90 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Q1. For an ideal half-wave slotline resonator, what is the approximate resonance condition?",
+      "answers": {
+        "a": "Ls = lambda_s/4",
+        "b": "Ls = lambda_s/2",
+        "c": "Ls = 2*lambda_s",
+        "d": "Ls = lambda_s"
+      },
+      "explanations": {
+        "a": "Incorrect. lambda_s/4 describes a quarter-wavelength length, not a half-wave resonator.",
+        "b": "Correct. For an ideal half-wave slotline resonator, the resonator length is approximately half the guided wavelength at resonance.",
+        "c": "Incorrect. This corresponds to twice the guided wavelength.",
+        "d": "Incorrect. This corresponds to one full guided wavelength."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Q2. If the slotline resonator length increases while its effective permittivity remains approximately constant, what generally happens to its resonant frequency?",
+      "answers": {
+        "a": "It increases",
+        "b": "It decreases",
+        "c": "It remains unchanged",
+        "d": "It becomes infinite"
+      },
+      "explanations": {
+        "a": "Incorrect. Increasing the resonator length generally increases its resonant wavelength, reducing the resonant frequency.",
+        "b": "Correct. For a half-wave resonator, the approximate resonant frequency is inversely proportional to its length when effective permittivity is constant.",
+        "c": "Incorrect. Resonant frequency generally depends on resonator length.",
+        "d": "Incorrect. Increasing the length does not make the resonant frequency infinite."
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Q3. In a two-port microwave network, what does S21 represent?",
+      "answers": {
+        "a": "Input reflection coefficient",
+        "b": "Forward transmission coefficient",
+        "c": "Output reflection coefficient",
+        "d": "Dielectric loss tangent"
+      },
+      "explanations": {
+        "a": "Incorrect. S11 represents the input reflection coefficient.",
+        "b": "Correct. S21 represents forward transmission from port 1 to port 2 under the defined port reference conditions.",
+        "c": "Incorrect. S22 represents the output reflection coefficient.",
+        "d": "Incorrect. Dielectric loss tangent characterizes dielectric losses, not forward transmission."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Q4. In a microstrip-slotline resonator designed to produce a transmission notch, what is typically observed near resonance?",
+      "answers": {
+        "a": "A local minimum in the magnitude of S21",
+        "b": "S21 must always equal 1",
+        "c": "S21 remains constant at every frequency",
+        "d": "S21 must have a positive value in decibels"
+      },
+      "explanations": {
+        "a": "Correct. In a notch-type design, transmission decreases near resonance because of the resonator's coupling to the transmission path.",
+        "b": "Incorrect. A transmission notch is characterized by reduced transmission, not necessarily unity transmission.",
+        "c": "Incorrect. The resonator produces a frequency-dependent response.",
+        "d": "Incorrect. Passive-network transmission magnitude in decibels is normally zero or negative for a normalized S21 magnitude not exceeding one."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Q5. What determines the resonant frequency of an ideal parallel RLC resonator?",
+      "answers": {
+        "a": "Resistance and capacitance only",
+        "b": "Resistance and inductance only",
+        "c": "Inductance and capacitance",
+        "d": "Substrate thickness alone"
+      },
+      "explanations": {
+        "a": "Incorrect. Resistance affects damping and losses, but does not determine the ideal LC resonance by itself.",
+        "b": "Incorrect. Resistance and inductance alone are insufficient to determine the ideal LC resonant frequency.",
+        "c": "Correct. The ideal resonant frequency is f0 = 1/(2*pi*sqrt(Lp*Cp)).",
+        "d": "Incorrect. Substrate thickness can influence the actual transmission structure, but it alone does not determine an ideal RLC resonant frequency."
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    }
+  ]
+}
