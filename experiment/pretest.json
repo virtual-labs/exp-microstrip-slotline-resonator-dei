@@ -2,37 +2,88 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "A microstrip transmission line generally consists of:",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A conducting strip over a dielectric substrate with a ground plane",
+        "b": "Two parallel conducting wires in free space",
+        "c": "A dielectric rod without any conductor",
+        "d": "A waveguide filled with air only"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct. A microstrip line consists of a conducting strip separated from a ground plane by a dielectric substrate.",
+        "b": "Incorrect. Two parallel conducting wires do not describe a conventional microstrip line.",
+        "c": "Incorrect. A microstrip line requires conducting metal and a dielectric substrate.",
+        "d": "Incorrect. A microstrip line is a planar transmission structure, not a hollow waveguide."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "What is the primary purpose of a resonator?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To absorb signals at every frequency",
+        "b": "To exhibit a strong response near a particular frequency",
+        "c": "To convert AC into DC",
+        "d": "To generate a constant magnetic field"
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Incorrect. A resonator does not necessarily absorb signals at every frequency.",
+        "b": "Correct. A resonator exhibits a characteristic response near its resonant frequency.",
+        "c": "Incorrect. AC-to-DC conversion is performed by a rectifier.",
+        "d": "Incorrect. Generating a constant magnetic field is not the primary purpose of a resonator."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is the resonant frequency of an ideal LC resonator?",
+      "answers": {
+        "a": "1/(LC)",
+        "b": "LC/(2*pi)",
+        "c": "1/(2*pi*sqrt(L*C))",
+        "d": "2*pi*sqrt(L*C)"
+      },
+      "explanations": {
+        "a": "Incorrect. 1/(LC) is not the resonant-frequency formula.",
+        "b": "Incorrect. This expression does not give the resonant frequency.",
+        "c": "Correct. The ideal LC resonant frequency is f0 = 1/(2*pi*sqrt(L*C)).",
+        "d": "Incorrect. This expression is not the resonant-frequency formula."
       },
       "correctAnswer": "c",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which scattering parameter represents forward transmission from port 1 to port 2?",
+      "answers": {
+        "a": "S11",
+        "b": "S21",
+        "c": "S12",
+        "d": "S22"
+      },
+      "explanations": {
+        "a": "Incorrect. S11 represents the reflection coefficient at port 1.",
+        "b": "Correct. S21 represents forward transmission from port 1 to port 2.",
+        "c": "Incorrect. S12 represents reverse transmission from port 2 to port 1.",
+        "d": "Incorrect. S22 represents the reflection coefficient at port 2."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "The effective permittivity of a transmission line primarily influences its:",
+      "answers": {
+        "a": "Physical colour",
+        "b": "Phase velocity and guided wavelength",
+        "c": "Connector shape only",
+        "d": "Metal density"
+      },
+      "explanations": {
+        "a": "Incorrect. Effective permittivity does not determine the physical colour.",
+        "b": "Correct. Effective permittivity influences phase velocity and guided wavelength.",
+        "c": "Incorrect. It does not determine connector shape.",
+        "d": "Incorrect. Metal density is not determined by effective permittivity."
+      },
+      "correctAnswer": "b",
       "difficulty": "beginner"
     }
   ]
